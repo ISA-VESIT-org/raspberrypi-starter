@@ -1,3 +1,15 @@
+# Table of Contents
+1. [Setting Up Raspberry Pi](#setting-up-raspberry-pi)
+2. [Components Used](#components-used)
+3. [Description](#description)
+4. [Setup](#setup)
+5. [VNC Viewer Setup](#step-1---installing-vnc-viewer)
+6. [PuTTY Setup](#step-2---installing-putty)
+7. [Imager Setup](#step-3---installing-imager)
+8. [OS Customization](#os-customization)
+9. [Creating SSH File](#creating-ssh-file)
+10. [Notes](#notes)
+
 # Setting Up Raspberry Pi
 - Links for Downloading Few Software required for setting up Raspberry Pi
 1. [Rufus](https://rufus.ie/en/#google_vignette)
