@@ -75,10 +75,11 @@ Make sure to "Enable SSH"<br/>
 ![](https://lh7-us.googleusercontent.com/Q9wPjwZbQhGGKD3QgOi0KJ6idsK59dWIKWABmIuh4ZwDB-ikCB7gEgXaIRDEEiyTNHC_5ZV_7i6p_wofocUmCdxgzQn0ZcFCooshVFHJRw62XlZ1_Pu9FfaN6WNveejpSRm56HhbepF0z46NY-UtI5o)
 Create a new text file called "ssh"
 ![](https://lh7-us.googleusercontent.com/c6lA15fNZamyUGrtLWpNNlSBGsM3lubaBzenTLDJwE6wCBiCTvgYGFlOjPDMwj6u311tt81i4QKuk5RusgeLp8ae-1BvWLI59vWuS9G_ydU1R3vLsobfT5n6shxXCBFtgh7Jbf0tgIEOsZ7RoeIqH58)
-
+Using 'Rename' option make 'ssh file' #extensionless
 ### Notes
 
 - OS Customization
+  Please ensure to document the hostname, username, and password details, as they are crucial for establishing a connection between your Raspberry Pi and the device using both Putty and VNC Viewer. 
 
 1. Hostname: raspberrypi.local
 2. Username: admin
