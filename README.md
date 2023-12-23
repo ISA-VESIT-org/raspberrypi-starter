@@ -31,6 +31,15 @@
 **Overview of Pin Diagram**
 ![](https://lh7-us.googleusercontent.com/GxUcjuIc7cna_f5zu6YPBiplcnbs60MwNlGVE9ud7A4mUIsfRdJnEZIjYBhm_y7UpKY9laor7EisOVhP9gmK5v_devnKkNVzQhvOalbLjnhgC32s6mlYfSZ-N1dMYORap4CpUuTVM8f02Jji4rgv9NU)
 
+### Components on the Raspberry Pi board 
+
+![image](https://github.com/ISA-VESIT-test-org/raspberrypi-starter/assets/147083661/3a1bfb85-5f34-4061-ac56-adc690c1fe6d)
+
+A) USB Type-C port is used to supply power from the power source 
+B) DSI display port is used to connect the raspberry pi to the monitor.
+C) Wireless/Bluetooth device component which gives Raspberry Pi the ability to communicate with devices wirelessly
+D) Raspberry pi provides two HDMI ports 
+
 ## Setup
 
 ### Step 1 - Installing VNC Viewer
@@ -75,7 +84,8 @@ Make sure to "Enable SSH"<br/>
 ![](https://lh7-us.googleusercontent.com/Q9wPjwZbQhGGKD3QgOi0KJ6idsK59dWIKWABmIuh4ZwDB-ikCB7gEgXaIRDEEiyTNHC_5ZV_7i6p_wofocUmCdxgzQn0ZcFCooshVFHJRw62XlZ1_Pu9FfaN6WNveejpSRm56HhbepF0z46NY-UtI5o)
 Create a new text file called "ssh"
 ![](https://lh7-us.googleusercontent.com/c6lA15fNZamyUGrtLWpNNlSBGsM3lubaBzenTLDJwE6wCBiCTvgYGFlOjPDMwj6u311tt81i4QKuk5RusgeLp8ae-1BvWLI59vWuS9G_ydU1R3vLsobfT5n6shxXCBFtgh7Jbf0tgIEOsZ7RoeIqH58)
-Using 'Rename' option make 'ssh file' #extensionless
+Using 'Rename' option make 'ssh file' extensionless
+
 ### Notes
 
 - OS Customization
