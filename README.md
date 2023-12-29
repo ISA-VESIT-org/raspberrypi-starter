@@ -35,10 +35,22 @@
 
 ![image](https://github.com/ISA-VESIT-test-org/raspberrypi-starter/assets/147083661/3a1bfb85-5f34-4061-ac56-adc690c1fe6d)
 
-A) USB Type-C port is used to supply power from the power source 
-B) DSI display port is used to connect the raspberry pi to the monitor.
-C) Wireless/Bluetooth device component which gives Raspberry Pi the ability to communicate with devices wirelessly
-D) Raspberry pi provides two HDMI ports 
+  A) USB Type-C port is used to supply power from the 
+power source. 
+
+  B) DSI display port is used to connect the raspberry pi to the monitor.
+
+  C) Wireless/Bluetooth device component which gives Raspberry Pi the ability to communicate with devices wirelessly
+
+  D) Raspberry pi provides two HDMI ports mainly used to connect raspberry pi to the monitor.
+
+  F) Soc on the board is *BCM2711B0* which can differ according to the raspberry pi model. 
+
+  G) Raspberry pi provides 40 GPIO pins on the board. The detailed pin configuration image gives information about specific usage of pin number.
+  ![image](https://github.com/Tatyvinchu/raspberrypi-starter/assets/147083661/d401fe30-2851-499d-a72d-d3e61bb848f6)
+
+  F) There are total 4 USB ports available to user for connection purpose and data uploading.
+   
 
 ## Setup
 
