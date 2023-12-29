@@ -31,6 +31,39 @@
 **Overview of Pin Diagram**
 ![](https://lh7-us.googleusercontent.com/GxUcjuIc7cna_f5zu6YPBiplcnbs60MwNlGVE9ud7A4mUIsfRdJnEZIjYBhm_y7UpKY9laor7EisOVhP9gmK5v_devnKkNVzQhvOalbLjnhgC32s6mlYfSZ-N1dMYORap4CpUuTVM8f02Jji4rgv9NU)
 
+### Components on the Raspberry Pi board 
+
+![image](https://github.com/ISA-VESIT-test-org/raspberrypi-starter/assets/147083661/3a1bfb85-5f34-4061-ac56-adc690c1fe6d)
+
+  A) USB Type-C port is used to supply power from the 
+power source. 
+
+  B) DSI display port is used to connect the raspberry pi to the monitor.
+
+  C) Wireless/Bluetooth device component which gives Raspberry Pi the ability to communicate with devices wirelessly
+
+  D) Raspberry pi provides two HDMI ports mainly used to connect raspberry pi to the monitor.
+
+  F) Soc on the board is *BCM2711B0* which can differ according to the raspberry pi model. 
+
+  G) Raspberry pi provides 40 GPIO pins on the board. The detailed pin configuration image gives information about specific usage of pin number.
+  ![image](https://github.com/Tatyvinchu/raspberrypi-starter/assets/147083661/d401fe30-2851-499d-a72d-d3e61bb848f6)
+
+  H) There are total 4 USB ports available to user for connection purpose and data uploading.
+
+  I) An Ethernet port is also present on the board to connect Raspberry Pi to the internet or to the computer.
+
+  J) Directly above the 3.5 mm AV jack is a strange-looking connector with a plastic flap which
+  can be pulled up; this is the camera connector, also known as the Camera Serial Interface (CSI). This allows you to use the specially designed Raspberry Pi Camera Module 
+
+  K) The 3.5 mm AV jack carriesa video signal which can be connected to TVs, projectors, and other displays that support acomposite video signal using a special cable known as a tip-ring-ring-sleeve (TRRS) adapter.This is also known as the headphone jack, and it can be used for that
+exact purpose 
+
+
+
+
+
+
 ## Setup
 
 ### Step 1 - Installing VNC Viewer
@@ -75,10 +108,12 @@ Make sure to "Enable SSH"<br/>
 ![](https://lh7-us.googleusercontent.com/Q9wPjwZbQhGGKD3QgOi0KJ6idsK59dWIKWABmIuh4ZwDB-ikCB7gEgXaIRDEEiyTNHC_5ZV_7i6p_wofocUmCdxgzQn0ZcFCooshVFHJRw62XlZ1_Pu9FfaN6WNveejpSRm56HhbepF0z46NY-UtI5o)
 Create a new text file called "ssh"
 ![](https://lh7-us.googleusercontent.com/c6lA15fNZamyUGrtLWpNNlSBGsM3lubaBzenTLDJwE6wCBiCTvgYGFlOjPDMwj6u311tt81i4QKuk5RusgeLp8ae-1BvWLI59vWuS9G_ydU1R3vLsobfT5n6shxXCBFtgh7Jbf0tgIEOsZ7RoeIqH58)
+Using 'Rename' option make 'ssh file' extensionless
 
 ### Notes
 
 - OS Customization
+  Please ensure to document the hostname, username, and password details, as they are crucial for establishing a connection between your Raspberry Pi and the device using both Putty and VNC Viewer. 
 
 1. Hostname: raspberrypi.local
 2. Username: admin
