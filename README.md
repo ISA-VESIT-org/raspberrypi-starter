@@ -49,8 +49,20 @@ power source.
   G) Raspberry pi provides 40 GPIO pins on the board. The detailed pin configuration image gives information about specific usage of pin number.
   ![image](https://github.com/Tatyvinchu/raspberrypi-starter/assets/147083661/d401fe30-2851-499d-a72d-d3e61bb848f6)
 
-  F) There are total 4 USB ports available to user for connection purpose and data uploading.
-   
+  H) There are total 4 USB ports available to user for connection purpose and data uploading.
+
+  I) An Ethernet port is also present on the board to connect Raspberry Pi to the internet or to the computer.
+
+  J) Directly above the 3.5 mm AV jack is a strange-looking connector with a plastic flap which
+  can be pulled up; this is the camera connector, also known as the Camera Serial Interface (CSI). This allows you to use the specially designed Raspberry Pi Camera Module 
+
+  K) The 3.5 mm AV jack carriesa video signal which can be connected to TVs, projectors, and other displays that support acomposite video signal using a special cable known as a tip-ring-ring-sleeve (TRRS) adapter.This is also known as the headphone jack, and it can be used for that
+exact purpose 
+
+
+
+
+
 
 ## Setup
 
